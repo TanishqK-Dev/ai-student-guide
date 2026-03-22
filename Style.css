@@ -1,4 +1,8 @@
 /* 1. General Reset & Base Styles */
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -111,4 +115,10 @@ footer {
 footer a {
     color: #007bff;
     text-decoration: none;
+}
+
+.tool-card p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 10px;
 }
