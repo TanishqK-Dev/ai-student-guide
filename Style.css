@@ -1,0 +1,114 @@
+/* 1. General Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 2. Navigation (The "TK Dev" Bar) */
+header {
+    background: #ffffff;
+    padding: 1rem 5%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+}
+
+/* 3. Hero Section (The "Welcome" Area) */
+.hero {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* 4. Main Content Layout */
+.content-area {
+    padding: 40px 5%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+article h2 {
+    margin-bottom: 15px;
+    color: #222;
+}
+
+/* 5. Tool Grid & Cards */
+.tool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tool-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+    border-top: 4px solid #007bff;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+}
+
+.tag {
+    display: inline-block;
+    background: #e7f3ff;
+    color: #007bff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* 6. Footer */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background: #333;
+    color: white;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
