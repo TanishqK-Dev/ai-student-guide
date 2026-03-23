@@ -211,3 +211,24 @@ body.dark-mode {
     background: #444;
     color: white;
 }
+.quote-container {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-left: 5px solid #007bff; /* A nice accent border */
+}
+
+#quote-text {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#quote-author {
+    font-weight: bold;
+    color: #555;
+}
+
+.dark-mode #quote-author {
+    color: #bbb;
+}
